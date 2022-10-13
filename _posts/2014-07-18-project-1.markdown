@@ -1,0 +1,12 @@
+---
+layout: default
+title: Pro Timer
+modal-id: 1
+date: 2022-10-13
+img: protimer_win.png
+alt: image-alt
+project-date: October 2022
+client: WINDOWS-LINUX-MAC
+category: Desktop Application
+description: Pro-Timer records the time for the project that you're currently working on and groups them based on the date. So that you can find the amount of time spent on the project
+---
