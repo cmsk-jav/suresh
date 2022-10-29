@@ -6,8 +6,8 @@ date: 2020-03-03
 img: steganography.png
 alt: image-alt
 project-date: March 2022
-client: Start Bootstrap
+client: Windows
 technology: Java, JavaFX
-category: App Development
+category: Desktop Application
 description: Encoding our valuable information inside an multimedia(Text, Image, Audio, Video) file and decode it whenever needed!! 
 ---
