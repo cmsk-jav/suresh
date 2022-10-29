@@ -1,0 +1,13 @@
+---
+layout: default
+title: Pro Timer
+modal-id: 1
+date: 2022-10-13
+img: Protimer.png
+alt: image-alt
+project-date: October 2022
+client: WINDOWS-LINUX-MAC
+technology: Java, Groovy, JavaFX
+category: Desktop Application
+description: Pro-Timer records the time that you've spend on a project and aggregate them based on the date. So that you should be able to know how much time a project should needs to get done. And this also makes you work even faster because if you're going to a competition or a hackathon Then all of them expects you to solve a problem or a task within the specific timeframe. By practicing this, You can achieve it a real quick!!
+---
