@@ -20,9 +20,9 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
+              {% if post.platform %}
+              <li>Platform:
+                <strong>{{ post.platform }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
@@ -40,7 +40,32 @@
                 <strong>{{ post.technology }}</strong>
               </li>
               {% endif %}
+              {% for source in post.source %}
+              <li>
+                Source: <strong>
+                  <a href="{{ source.location }}" target="_blank" >{{ post.title }} ( {{ source.platform }} )</a>
+                </strong>
+              </li>
+              {% endfor %}
             </ul>
+            {% for release in post.release_cadence %}
+            <div class="row">
+              <p> <b> {{ release.name }} </b> </p>
+              <img src="img/assets/{{ release.build_img }}" class="img-responsive img-centered" alt="{{ release.build_tool }}" >
+                <p style="background-color: #F7F7F8; border-left: 5px solid #FF813F;">{{ release.builder_url }}</p>
+              <ul class="list-inline item-details">
+                <li>
+                  <p>{{ release.release_description }}</p>
+                </li>
+              </ul>
+            </div>
+            {% endfor %}
+            {% if post.kudos %}
+              <p>{{ post.kudos }}</p>
+            {% endif %}
+            {% for pic in post.addon_pics %}
+              <img src="img/assets/{{ pic }}" class="img-responsive img-centered" alt="{{pic}}" >
+            {% endfor %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

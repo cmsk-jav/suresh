@@ -1,13 +1,29 @@
 ---
 layout: default
-title: Pro Timer
+title: ProTimer
 modal-id: 1
 date: 2022-10-30
 img: Protimer.png
 alt: image-alt
 project-date: October 2022
-client: WINDOWS-LINUX-MAC
+platform: WINDOWS-LINUX-MAC
 technology: Open JDK 11, Groovy 4.0, JavaFX-15
 category: Desktop Application
+release_cadence:
+  - name: Multi Platform Build Tool
+    build_tool: Install4J
+    build_img: install4j_medium.png
+    release_description: In this wonderful time, I need to thank install4j for giving me an <b>Open-Source license</b> for their build tool which I can easily create installers for multiple platforms.
+    builder_url: https://www.ej-technologies.com/products/install4j/overview.html
+
+source:
+  - platform: GitHub
+    location: https://github.com/cmsk-jav/ProTimer
+
 description: Pro-Timer records the time that you've spent on a project and aggregates them based on the date. So that you should be able to know how much time a project should need to get done. And this also makes you work even faster because if you're going to a competition or a hackathon Then all of them expect you to solve a problem or a task within the specified timeframe. By practicing this, You can achieve it quickly!!
+kudos: And kudos to all the Open-Source developers :-)
+addon_pics:
+  - protimer_windows.png
+  - protimer_linux.png
+  - protimer_mac.png
 ---
