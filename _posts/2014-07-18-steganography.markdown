@@ -10,5 +10,5 @@ project-date: Not-Released
 platform: Windows
 technology: Java, JavaFX
 category: Desktop Application
-description: Encoding our valuable information inside an multimedia(Text, Image, Audio, Video) file and decode it whenever needed!! 
+description: Encoding our valuable information inside a multimedia(Text, Image, Audio, Video) file and decode it whenever needed!! 
 ---
